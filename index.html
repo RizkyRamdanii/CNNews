@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot</title> 
+    <link rel="stylesheet" href="assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!-- <div class="text-center">
+    <h1 id="quotes"></h1>
+    <div class="row col-sm mt-5">
+        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">
+            Silahkan Jawab
+        </label>
+        <input type="text" id="jawaban" class="form-control">
+    </div>
+    </div> -->
+
+    <div class="container">
+    <div id="spinner">
+    <div class="z-3 position-absolute start-50" style="top: 5%;">
+        <div class="spinner-border text-primary" style="display: none;" role="status" id="loaders">
+            <span class="visually-hidden"></span>
+        </div>
+    </div>
+    </div> 
+    </div>
+
+    <div class="text-center d-flex justify-content-center flex-column">
+        <p id="quotes" class="mt-4"></p>
+        <div class="input-group mb-3">
+            <input type="text" id="answer" class="form-control ms-1 rounded-end" placeholder="Silahkan Jawab"
+            aria-describedby="button-addon2">
+            <button onclick="botStart()" id="button-addon2" class="btn btn-outline-primary">Kirim</button>
+        </div>
+    </div>
+
+    
+
+    <script src="bot.js"></script>
+    <script src="coba.js"></script>
+</body>
+</html>
